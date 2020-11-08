@@ -1,0 +1,65 @@
+[Theme]
+DisplayName={name}
+
+;; ICONS
+; User
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue={icon-user}
+; Computer
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue={icon-computer}
+; Network
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue={icon-network}
+; Bin
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Empty={icon-empty_bin}
+Full={icon-full_bin}
+
+;; WALLPAPERS
+[Control Panel\Desktop]
+Wallpaper=DesktopBackground\{wallpaper}
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+[Slideshow]
+Interval=1800000
+Shuffle=1
+ImagesRootPath=DesktopBackground
+
+;; CURSORS
+[Control Panel\Cursors]
+AppStarting={cursor-working}
+Arrow={cursor-arrow}
+Crosshair={cursor-cross}
+Hand={cursor-link}
+Help={cursor-helpsel}
+IBeam={cursor-beam}
+No={cursor-unavail}
+NWPen={cursor-pen}
+SizeAll={cursor-move}
+SizeNESW={cursor-nesw}
+SizeNS={cursor-ns}
+SizeNWSE={cursor-nwse}
+SizeWE={cursor-ew}
+UpArrow={cursor-up}
+Wait={cursor-busy}
+DefaultValue={cursor_theme}
+DefaultValue.MUI={cursor_theme_mui}
+
+;; SOUNDS
+[Sounds]
+SchemeName=@%SystemRoot%\System32\mmres.dll,-800
+
+;; STYLE
+[VisualStyles]
+VisualStyleVersion=10
+Path=%SystemRoot%\Resources\Themes\Aero\Aero.msstyles
+Size=NormalSize
+ColorStyle=NormalColor
+AutoColorization=0
+SystemMode=Dark
+AppMode=Dark
+ColorizationColor={colorization}
+[MasterThemeSelector]
+MTSM=RJSPBS
